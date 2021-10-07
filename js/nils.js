@@ -22,10 +22,7 @@ function seperateNumberAndUnit(string) {
 function calc(){
 
 if(first_click){
-
-
-
-    
+  
     let input=document.getElementById('input').value;
     const länge=document.getElementsByClassName('unit').length;
     for(let i=0;i<länge;i++){

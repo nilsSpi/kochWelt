@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.button-green {
+    color: white;
+    letter-spacing: 1px;
+    background-color: green;
+    padding: 16px 28px;
+    text-decoration: none;
+}
+
+.button-green:hover {
+    color: white;
+    letter-spacing: 1px;
+    background-color: green;
+    padding: 16px 28px;
+    text-decoration: none;
+    box-shadow: 0 0 1px 1px #fefefe, 1px 1px 1px 1px #010101;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.header>img {
+    width: 20vw;
+    margin-left: 5%;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav a {
+    margin: 20px 20px 0px 20px;
+    text-decoration: none;
+    font-family: "Raleway";
+    color: black;
+    border-bottom: 4px solid transparent;
+    transition: all 225ms ease-in-out;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid green;
+    transition: all 225ms ease-in-out;
+    color: green;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 32px 10vw;
+}
+
+.first-row img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px #fefefe, 10px 10px 8px 1px #010101;
+    transition: all 225ms ease-in-out;
+}
+
+.first-row img:hover {
+    box-shadow: 0 0 1px 1px #fefefe, 13px 13px 11px 1px #010101;
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    transition: all 225ms ease-in-out;
+}
+
+.first-row .produktinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5vw;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 20vw;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+/* zweite reihe startseite*/
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.second-row h2, .third-row h2 {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.three-pic-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.img-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px #fefefe, 4px 4px 4px 1px #010101;
+}
+
+/*
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.bg-lightgrey {
+    background-color: rgba(230, 230, 230, 1);
+    padding-bottom: 75px;
+}
+
+.img-container>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.img-container a:hover {
+    color: rgba(0, 0, 0, 0.7);
+    filter: brightness(1.1);
+}
+
+.third-row {
+    width: 100vw;
+    padding-bottom: 75px;
+}
+
+.third-row-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.third-row-content img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px #fefefe, 4px 4px 4px 1px #010101;
+}
+
+/* start klassen die auf nilsRezept benutzt werden */
+
+.row-margin {
+    margin-left: 10vw !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.food-img-nils {
+    background-image: url("../img/salad.jpg");
+    height: 150px;
+    background-position: 50% 40%;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px #fefefe, 10px 10px 8px 1px #010101;
+}
+
+.icons-container-nils {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.icons-container-nils img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.middle-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table-row-margin {
+    margin-left: 10vw !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.nils-button {
+    font-stretch: wider;
+    color: white;
+    letter-spacing: 1px;
+    background-color: green;
+    text-decoration: none;
+    padding: 6px 18px;
+}
+
+.nils-tableColor {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.para-nils {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.profile-pic img {
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* ende klassen die auf nilsRezept benutzt werden */

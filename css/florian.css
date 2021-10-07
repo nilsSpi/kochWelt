@@ -1,0 +1,66 @@
+.all-flo {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-img-flo {
+    background-image: url(../img/florian/sivis-semmelknoedel.jpg);
+    display: flex;
+    height: 200px;
+    background-position: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.headline-flo {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.infos-flo {
+    display: flex;
+}
+
+.infos-grey {
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    
+}
+
+.infos-flo-abstand {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.infos-flo-abstand2 {
+    margin-right: 20px;
+}
+
+.zutaten-flo-1 {
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.zutaten-flo-2 {
+    padding: 3px;
+}
+
+.zutaten-flo-all {
+    margin-top: 30px;
+}
+
+.anzahl-portionen-flo {
+    display: flex;
+}
+
+.profile-flo {
+    height: 100px;
+}
+
+.line-flo {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+}

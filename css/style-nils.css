@@ -1,0 +1,99 @@
+/* start klassen die auf nilsRezept benutzt werden */
+.row-margin{
+    margin-left: 10vw !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-right: 10vw !important; 
+}
+
+
+.food-img-nils{
+    background-image: url("../img/salad.jpg");
+    height: 150px;
+    background-position: 50% 40%;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 1px 1px #fefefe, 10px 10px 8px 1px #010101;
+}
+
+.icons-container-nils{
+    background-color: rgba(230, 230, 230, 1);
+    border-radius: 8px;
+}
+
+.icons-container-nils img{
+height: 20px;
+width: 20px;
+margin-right: 5px;
+
+
+}
+.input-nils{
+    width: 10vw !important;
+}
+
+.middle-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.table-head-margin{
+margin-left: 10vw !important;
+    margin-top: 100px !important;
+     margin-bottom: 0 !important; 
+    margin-right: 10vw !important;
+}
+
+.nils-button{
+    font-stretch: wider;
+    color: white;
+    letter-spacing: 1px;
+    background-color: green;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 6px 18px;
+}
+.nils-tableColor{
+background-color: rgba(230, 230, 230, 1);
+}
+
+.para-nils{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.profile-pic img{
+    height: 100px;
+    border-radius: 100%;
+}
+
+table{
+    margin-left: 10vw;
+    font-size: 20px;
+    
+}
+
+table tr{
+    padding: 15px;
+    border-radius: 10px;
+
+}
+tr td:nth-child(even){
+    padding-right: 49vw;
+    padding-left: 15px;
+    font-style: italic;
+    
+}
+tr td:nth-child(odd){
+    text-align: right;
+    padding-left: 5px;
+}
+
+table tr:nth-child(odd){
+    background-color: rgba(230, 230, 230, 1);
+}
+
+
+
+
+
+/* ende klassen die auf nilsRezept benutzt werden */

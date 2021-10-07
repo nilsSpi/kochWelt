@@ -1,0 +1,24 @@
+#content {
+    display: flex;
+    justify-content: center;
+}
+.content-recipe {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.header-recipe h1 {
+    font-size: 1.5rem;
+}
+
+.header-recipe-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: left 0px top -230px;
+}
+
+.content-recipe-number {
+    padding-bottom: 30px;
+}
